@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>History quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="start-container" id="startContainer">
+        <h1 class="h1">Квіз по Історії</h1>
+        <h3 id="stats"></h3>
+        <button class="btn" id="startButton">Почати</button>
+    </div>
+
+    <div id="timer" style="display:none;">
+        Наступне питання через: <span id="time">00:10</span>
+    </div>
+
+    <div class="quiz-container" id="quizContainer" style="display:none;">
+        <div id="question"></div>
+        <div id="answers"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
